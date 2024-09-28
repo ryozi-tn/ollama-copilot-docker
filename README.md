@@ -12,6 +12,13 @@ https://github.com/bernardo-bruning/ollama-copilot
 
 ## Instructions
 
+### 0. Git Clone
+
+```sh
+git clone https://github.com/ryozi-tn/ollama-copilot-docker.git 
+cd ollama-copilot-docker
+```
+
 ### 1. GPU Support
 
 Refer to: https://hub.docker.com/r/ollama/ollama

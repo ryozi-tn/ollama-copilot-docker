@@ -13,6 +13,13 @@ https://github.com/bernardo-bruning/ollama-copilot
 
 ## 手順
 
+### 0. Git Cloneする
+
+```sh
+git clone https://github.com/ryozi-tn/ollama-copilot-docker.git 
+cd ollama-copilot-docker
+```
+
 ### 1. GPU 対応
 
 see: https://hub.docker.com/r/ollama/ollama
