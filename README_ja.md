@@ -51,9 +51,7 @@ https://github.com/bernardo-bruning/ollama-copilot?tab=readme-ov-file#configure-
 - ローカルで動作させている場合はlocalhostのままで構いません
 - リモートで動作させている場合はlocalhostではなく該当のIPに変更してください
 
-### 5. 動作確認
-
-
+これで使えるはずです。
 
 ## アンインストール
 
@@ -124,7 +122,7 @@ podman-compose up -d
 podman-compose exec ollama ollama pull codellama:code
 ```
 
-もし`podman compose` で実行したい場合は`containers.conf`を用意するなどする。
+もし`podman compose` で実行したい場合は`containers.conf`を用意する。
 
 ```
 # 参考: https://github.com/containers/common/blob/main/docs/containers.conf.5.md#engine-table

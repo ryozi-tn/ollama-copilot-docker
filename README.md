@@ -25,6 +25,7 @@ curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-contai
     | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 
 sudo apt-get update
+
 sudo apt-get install -y nvidia-container-toolkit
 ```
 
@@ -49,13 +50,11 @@ https://github.com/bernardo-bruning/ollama-copilot?tab=readme-ov-file#configure-
 - For local setups, you can keep the `localhost` settings.
 - For remote setups, replace `localhost` with the appropriate IP address.
 
-### 4. Verify the Setup
-
-Verify that everything is running as expected.
+It should be ready to use now.
 
 ## Uninstallation
 
-To completely remove the setup:
+To completely remove the setup, run:
 
 ```sh
 docker compose down
