@@ -1,0 +1,3 @@
+[submodule "ollama-copilot"]
+	path = ollama-copilot
+	url = https://github.com/bernardo-bruning/ollama-copilot

@@ -1,0 +1,36 @@
+services:
+  ollama:
+    image: docker.io/ollama/ollama
+    networks:
+      - ollama-network
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama:/root/.ollama
+    restart: unless-stopped
+    # GPU support for docker
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    # GPU support for podman
+    devices:
+      - nvidia.com/gpu=all
+
+  ollama-copilot:
+    image: docker.io/ryozitn/ollama-copilot:latest
+    networks:
+      - ollama-network
+    ports:
+      - "11435:11435"
+      - "11437:11437"
+    environment:
+      - OLLAMA_HOST=ollama
+    restart: unless-stopped
+
+networks:
+  ollama-network:
+    driver: bridge
