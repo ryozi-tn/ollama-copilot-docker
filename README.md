@@ -1,5 +1,7 @@
 # Ollama Copilot on Docker
 
+This is an unofficial containerization of [Ollama Copilot](https://github.com/bernardo-bruning/ollama-copilot) . This container was created independently and is not affiliated with the original project.
+
 Run `Ollama-Copilot` in a Docker container.
 
 Original repository:  

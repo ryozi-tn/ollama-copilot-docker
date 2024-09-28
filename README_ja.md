@@ -1,7 +1,9 @@
 Ollama Copilot on Docker
 ------------
 
-`Ollama-Copilot`をDockerコンテナで動かします
+**これは、bernardo-bruningが開発した[Ollama Copilot](https://github.com/bernardo-bruning/ollama-copilot)の非公式なコンテナ化です。このコンテナは、独自に作成されたものであり、元のプロジェクトとは関係がありません。**
+
+`Ollama-Copilot`をDockerコンテナで動かします。
 
 Original repository:
 https://github.com/bernardo-bruning/ollama-copilot
