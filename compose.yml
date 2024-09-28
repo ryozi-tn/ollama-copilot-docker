@@ -17,8 +17,8 @@ services:
               count: all
               capabilities: [gpu]
     # GPU support for podman
-    devices:
-      - nvidia.com/gpu=all
+    #devices:
+    #  - nvidia.com/gpu=all
 
   ollama-copilot:
     image: docker.io/ryozitn/ollama-copilot:latest
